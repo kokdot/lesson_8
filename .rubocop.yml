@@ -1,0 +1,41 @@
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  TargetRubyVersion: "2.7.0"
+  Exclude:
+    - "spec/**/*"
+    - "vendor/**/*"
+Documentation:
+  Enabled: false
+HashSyntax:
+  Enabled: false
+MethodName:
+  Enabled: false
+StringLiterals:
+  Enabled: false
+Style/Encoding:
+  Enabled: false
+Layout/LineLength:
+  Max: 120
+Metrics/MethodLength:
+  Max: 90
+Lint/DuplicateMethods:
+  Enabled: false
+Style/AsciiComments:
+  Enabled: false
+Metrics/BlockLength:
+  Max: 60
+Metrics/AbcSize:
+  Enabled: false
+Style/ClassVars: 
+  Enabled: false
+Metrics/BlockLength:
+  Max: 90
+Metrics/ClassLength:
+  Max: 350
+Naming/MethodParameterName: 
+  Enabled: false
+Metrics/CyclomaticComplexity: 
+  Max: 20
+Metrics/PerceivedComplexity:
+  Max: 12
