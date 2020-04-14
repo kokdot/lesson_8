@@ -10,7 +10,7 @@ require_relative('validate')
 # Может удалять промежуточную станцию из списка
 # Может выводить список всех станций по-порядку от начальной до конечной
 class Route
-  attr_reader :first, :last, :stations
+  attr_reader :first, :last
   include Validate
   include InstanceCounter
 

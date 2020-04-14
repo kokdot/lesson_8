@@ -21,7 +21,7 @@ class Train
   include Manufacturer
   include Validate
   attr_accessor :vans, :route
-  attr_reader :number, :station
+  attr_reader :number
   NUMBER_FORMAT = /^[а-я0-9a-z]{3}-?[а-я0-9a-z]{2}$/i.freeze
 
   @@trains = {}

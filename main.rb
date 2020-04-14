@@ -20,10 +20,10 @@ require_relative('cargo_van')
 #      - Перемещать поезд по маршруту вперед и назад
 #      - Просматривать список станций и список поездов на станции
 class Main
-  def initialize(st, tr, ro)
-    @stations = st
-    @trains = tr
-    @routes = ro
+  def initialize(stations, trains, routes)
+    @stations = stations
+    @trains = trains
+    @routes = routes
   end
 
   def report

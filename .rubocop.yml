@@ -20,7 +20,7 @@ Layout/LineLength:
 Metrics/MethodLength:
   Max: 90
 Lint/DuplicateMethods:
-  Enabled: false
+  Enabled: true
 Style/AsciiComments:
   Enabled: false
 Metrics/BlockLength:
@@ -34,7 +34,7 @@ Metrics/BlockLength:
 Metrics/ClassLength:
   Max: 350
 Naming/MethodParameterName: 
-  Enabled: false
+  Enabled: true
 Metrics/CyclomaticComplexity: 
   Max: 20
 Metrics/PerceivedComplexity:
